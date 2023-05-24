@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/CSS-Compte.css" media="all" rel="stylesheet" type="text/css">
+    <title>Connexion</title>
+</head>
+
+<body>
+
+    <nav>
+        <li class="retour"><a href="../index.html"><img src="../image/arrow_left.png" alt="retour"></a></li>
+    </nav>
+
+    <div class="center">
+        <h1>Connexion</h1>
+        <form>
+            <div class="text">
+                <input type="text" id="NU" name="NU" placeholder="Nom d'utilisateur" required>
+            </div>
+
+            <div class="text">
+                <input type="password" id="motdepasse" name="motdepasse" minlength="8" placeholder="Mot de passe" required>
+            </div>
+
+            <div class="rappeler">
+                <label>
+                    <input type="checkbox">
+                    Mémoriser mon identifiant</label>
+            </div>
+            <br>
+            <input type="submit" value="Connecter">
+
+            <div class="CreationC">
+                Vous n'etes pas membre? <a href="../html/Creer-compte.html">Creer votre compte</a>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="../JavaScript/script_Con.js"></script>
+</body>
+</html>

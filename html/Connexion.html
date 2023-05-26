@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- En-tête de la page -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
 
 <body>
 
+    <!-- Navigation -->
     <nav>
         <li class="retour"><a href="../index.html"><img src="../image/arrow_left.png" alt="retour"></a></li>
     </nav>
@@ -18,29 +20,35 @@
     <div class="center">
         <h1>Connexion</h1>
         <form>
+            <!-- Champ d'entrée pour le nom d'utilisateur -->
             <div class="text">
                 <input type="text" id="NU" name="NU" placeholder="Nom d'utilisateur" required>
             </div>
                 
+            <!-- Champ d'entrée pour le mot de passe -->
             <div class="text">
                 <input type="password" id="motdepasse" name="motdepasse" minlength="8" placeholder="Mot de passe" required>
             </div>
             
+            <!-- Case à cocher pour se rappeler de l'identifiant -->
             <div class="rappeler">
                 <label>
                     <input type="checkbox">
                     Mémoriser mon identifiant</label>
             </div>
             <br>
+            <!-- Bouton de soumission du formulaire -->
             <input type="submit" value="Connecter">
 
+            <!-- Lien vers la page de création de compte -->
             <div class="CreationC">
-                Vous n'etes pas membre? <a href="../html/Creer-compte.html">Creer votre compte</a>
+                Vous n'êtes pas membre? <a href="../html/Creer-compte.html">Créer votre compte</a>
             </div>
 
         </form>
     </div>
 
-    <script src="../JavaScript/script_Con.js"></script>
+    
+    <!--  <script src="../JavaScript/script_Con.js"></script>  -->
 </body>
 </html>

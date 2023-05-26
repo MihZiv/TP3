@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="lesTables" id="B8A3C522-2864-C4F9-49F5-8335FB64B1F7" version="3.5">
+<createdBy>mihai</createdBy>
+<createdTime>2023-05-26 00:04:21 UTC</createdTime>
+<ownerDesignName>lesTables</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B8A3C522-2864-C4F9-49F5-8335FB64B1F7</designId>
+</OSDM_Design>
